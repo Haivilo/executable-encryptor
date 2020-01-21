@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/1/20 18:25:48。
+     1>项目“C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\shellDll\shellDLl.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(515): warning C4309: “初始化”: 截断常量值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\shellDLl.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\shellDLl.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\shellDLl.lib" /MACHINE:X86 /SAFESEH:NO /DLL Release\main.obj
+            正在创建库 C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\shellDLl.lib 和对象 C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\shellDLl.exp
+         正在生成代码
+         已完成代码的生成
+     1>main.obj : warning LNK4254: 节“.data”(C0000040)合并到具有不同特性的“.text”(60000020)
+         shellDLl.vcxproj -> C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\shellDLl.dll
+     1>已完成生成项目“C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\shellDll\shellDLl.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.35

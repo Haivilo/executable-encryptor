@@ -1,0 +1,23 @@
+﻿生成启动时间为 2020/1/20 18:25:50。
+     1>项目“C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\PEClass\PEClass.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt encryptShell.cpp PEstruct.cpp "源.cpp"
+         encryptShell.cpp
+         PEstruct.cpp
+     1>PEstruct.cpp(278): warning C4018: “<”: 有符号/无符号不匹配
+     1>PEstruct.cpp(301): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 PEstruct.cpp(288) : 忽略“i”的定义
+                 PEstruct.cpp(285) : 使用“i”的定义
+         源.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\PEClass.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\PEClass.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\PEClass.lib" /MACHINE:X86 /SAFESEH:NO Release\encryptShell.obj
+         Release\PEstruct.obj
+         "Release\源.obj"
+         正在生成代码
+         已完成代码的生成
+         PEClass.vcxproj -> C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\Release\PEClass.exe
+     1>已完成生成项目“C:\Users\Rongan Guo\Desktop\写过的宝贝\PEClass New2 - 副本\PEClass\PEClass.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.89
